@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.page-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

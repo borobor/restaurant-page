@@ -4,8 +4,9 @@ function renderAbout() {
   }
 
   const aboutPage = document.createElement('div');
-  const aboutText = document.createElement('div');
+  aboutPage.classList.add('page-content');
 
+  const aboutText = document.createElement('div');
   aboutText.textContent = 'You can find us here!';
 
   aboutPage.appendChild(aboutText);

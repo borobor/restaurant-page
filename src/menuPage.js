@@ -4,8 +4,9 @@ function renderMenu() {
   }
 
   const menuPage = document.createElement('div');
-  const menuText = document.createElement('div');
+  menuPage.classList.add('page-content');
 
+  const menuText = document.createElement('div');
   menuText.textContent = 'Check out our awesome menu here!';
 
   menuPage.appendChild(menuText);
