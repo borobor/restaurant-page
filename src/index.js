@@ -15,9 +15,13 @@ tabHome.textContent = 'Home';
 tabMenu.textContent = 'Menu';
 tabAbout.textContent = 'About';
 
+
 header.appendChild(tabHome);
 header.appendChild(tabMenu);
 header.appendChild(tabAbout);
+
+const tabs = header.querySelectorAll('button');
+tabs.forEach(tab => tab.classList.add('header-tab'));
 
 content.appendChild(header);
 

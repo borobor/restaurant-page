@@ -7,6 +7,7 @@ function renderAbout() {
   aboutPage.classList.add('page-content');
 
   const aboutText = document.createElement('div');
+  aboutText.classList.add('block-content');
   aboutText.textContent = 'You can find us here!';
 
   aboutPage.appendChild(aboutText);
