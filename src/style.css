@@ -32,6 +32,10 @@
   color: var(--sec-color);
 }
 
+.header-tab:hover {
+  cursor: pointer;
+}
+
 .header-tab::after {
   content: '';
   height: 2px;
@@ -43,7 +47,6 @@
 .header-tab:hover::after {
   width: 100%;
   transition: 0.5s;
-  cursor: pointer;
 }
 
 .page-content {
